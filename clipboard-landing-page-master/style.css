@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.back{
+    background-image: url(clipboard-landing-page-master/images/bg-header-desktop.png);
+    min-height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    padding: 1rem;
+    margin-top: -2rem;
+}
+.top h1{
+    font-size: 1.8rem;
+    opacity: .7;
+    padding-bottom: 1rem;
+}
+.top .line{
+    line-height: 1.5rem;
+    font-size: .98rem;
+    opacity: .6;
+    margin-bottom: 3rem;
+}
+button{
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 2px 0 grey;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-size: 1rem;
+}
+#ios{
+    background-color: hsl(171, 66%, 44%);
+}
+#mac{
+    background-color: hsl(233, 100%, 69%);
+}
+#tee{
+    padding: 1rem;
+}
+#tee h2{
+    font-size: 1.6rem;
+    opacity: .8;
+    margin-bottom: 1rem;
+}
+#tee p{
+    font-size: .9rem;
+    line-height: 1.3rem;
+    opacity: .7;
+}
+#two{
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+#flo-left{
+    width: 100%;
+    max-width: 23rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+#two h3{
+    font-size: 1.5rem;
+    opacity: .8;
+    margin-bottom: 1rem;
+}
+#two p{
+    font-size: .9rem;
+    line-height: 1.3rem;
+    opacity: .6;
+    margin-bottom: 1rem;
+}
+#two article{
+    margin-bottom: 2rem;
+}
+#three{
+    padding: 1rem;
+}
+#three h2{
+    font-size: 1.7rem;
+    opacity: .8;
+    line-height: 2.2rem;
+    margin-bottom: 2.5rem;
+}
+#three .line{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    opacity: .6;
+    margin-bottom: 6rem;
+}
+#three img{
+    width: 100%;
+    max-width: 23rem;
+    margin-bottom: 5rem;
+}
+.footer{
+    padding: 1rem;
+}
+
+.footer article img{
+    margin-bottom: 2.3rem;
+}
+.footer b{
+    font-size: 1.5rem;
+    opacity: .8;
+}
+
+.footer .line{
+    margin-top: 1rem;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    opacity: .6;
+    margin-bottom: 2rem;
+}
+
+/*styling for the "knwn" logos*/
+#tor{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#clip{
+    padding: 1rem;
+    margin-bottom: 8rem;
+}
+#clip h2{
+    font-size: 1.8rem;
+    opacity: .8;
+    margin-bottom: 1rem;
+}
+#clip p{
+    font-size: .9rem;
+    line-height: 1.3rem;
+    opacity: .6;
+    margin-bottom: 3rem;
+}
+
+/*Styling for footer*/
+footer{
+    background-color: #F5F6F8;
+    padding: 1rem 2rem;
+}
+footer *{
+    margin-bottom: 2rem;
+}
+#tiny{
+    width: 100%;
+    max-width: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    opacity: .7;
+}
+footer #logos{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+footer #logos img{
+    width: 100%;
+    max-width: 1.5rem;
+}
+
+/*media query*/
+@media (min-width: 600px) {
+    footer{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    footer *{
+        margin-bottom: 0;
+    }
+    button{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+       #tiny{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        align-self: center;
+        justify-self: center;
+       } 
+#logos{
+    grid-area: 1/6/3/7;
+    align-self: center;
+    justify-self: center;
+}
+#logos .faq{
+    grid-area: 1/2/2/3;
+}
+#logos .cons{
+    grid-area: 1/3/2/4;
+}
+#logos .pop{
+    grid-area: 1/4/2/5;
+}
+
+#logos .kit{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#logos .ins{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+#tor{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    width: 100%;
+    max-width: 3rem;
+    align-self: center;
+    justify-self: center;
+}
+.footer article{
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 22rem;
+    padding: 1rem;
+}
+.footer article .line{
+    font-size: 1rem;
+}
+#three img{
+    width: 100%;
+    max-width: 55rem;
+}
+#three h2{
+    font-size: 2.4rem;
+}
+#three p{
+    font-size: 1.1rem;
+}
+#flo-left{
+    width: 100%;
+    max-width: 55rem;
+}
+#two{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 1rem;
+}
+#two img{
+    width: 100%;
+    vertical-align: middle;
+}
+#two .side{
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+    text-align: left;
+}
+#two .side article{
+    margin-top: rem;
+    text-align: left;
+}
+}
