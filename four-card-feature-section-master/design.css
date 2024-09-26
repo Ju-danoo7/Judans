@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+/*@font-face {
+    font-family: ;
+    src: url();
+}*/
+.bod{
+    font-size: .8rem;
+    opacity: .6;
+    padding-bottom: 1.5rem;
+}
+#fes{
+    font-size: 1.8rem;
+    opacity: .8;
+    padding-bottom: .8rem ;
+}
+h1{
+    font-size: 1.75rem;
+    padding-bottom: 1rem ;
+}
+#two{
+    font-size: .9rem;
+    padding-bottom: 3rem;
+}
+.head{
+    font-size: .8rem;
+    padding-bottom: .7rem;
+}
+.image{display: block;
+position: relative;
+left: 9rem;
+    width: 100%;
+    max-width: 3rem;
+}
+#super{
+    border-top: 3px solid #5EB8B9;
+    width: 17rem;
+    padding: 2rem;
+    line-height: 1rem;
+    box-shadow: 0 1px 7px grey ;
+    background-color: #ffff;
+    text-align: left;
+}
+#team{
+    border-top: 3px solid #B44949;
+    width: 17rem;
+    padding: 2rem;
+    box-shadow: 0 1px 4px grey;
+    margin-bottom: 1.5rem;
+    background-color: #ffff;
+    text-align: left;
+}
+#karma{
+    border-top: 3px solid #DDB578;
+    width: 17rem;
+    padding: 2rem;
+    box-shadow: 0 1px 4px grey ;
+    background-color: #ffff;
+    text-align: left;
+}
+#calc{
+    border-top: 3px solid #6193BC;
+    width: 17rem;
+    padding: 2rem;
+    box-shadow: 0 1px 4px grey;
+    background-color: #ffff;
+    text-align: left;
+} 
+
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+
+.main{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.body{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+body{
+    height: 100vh;
+}
